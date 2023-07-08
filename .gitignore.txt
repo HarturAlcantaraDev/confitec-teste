@@ -1,5 +1,0 @@
-# Configurações do Eclipse
-.settings/
-.classpath
-.project
-factorypath

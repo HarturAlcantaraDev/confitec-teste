@@ -9,7 +9,7 @@ import br.com.confitec.teste.desconto.util.Constantes;
 @Service
 public class CompraService {
 
-	public ResponseEntity<String> calcularValorComDesconto(Double valorTotal, Integer quantidadeParcelas) {
+	public ResponseEntity<String> consultarValorComDesconto(Double valorTotal, Integer quantidadeParcelas) {
 		Double desconto;
 
 	    try {

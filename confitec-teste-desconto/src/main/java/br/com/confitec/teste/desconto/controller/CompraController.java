@@ -17,8 +17,8 @@ public class CompraController {
 	CompraService compraService;
 
     @GetMapping("/{valorTotal}/{quantidadeParcelas}")
-    public ResponseEntity<String>  calcularValorComDesconto(@PathVariable Double valorTotal, @PathVariable Integer quantidadeParcelas) {
-        return compraService.calcularValorComDesconto(valorTotal, quantidadeParcelas);
+    public ResponseEntity<String>  consultarValorComDesconto(@PathVariable Double valorTotal, @PathVariable Integer quantidadeParcelas) {
+        return compraService.consultarValorComDesconto(valorTotal, quantidadeParcelas);
     }
 }
 
